@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloBootController {
 
 	@Autowired
-	HelloBootConfig appConfig;
+	HelloBootAppConfig appConfig;
 
 	@RequestMapping("/")
 	@ResponseBody

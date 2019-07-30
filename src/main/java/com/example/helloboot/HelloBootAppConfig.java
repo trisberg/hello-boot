@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @RefreshScope
 @ConfigurationProperties(prefix="app")
-public class HelloBootConfig {
+public class HelloBootAppConfig {
 
 	private String message = "Boot";
 
